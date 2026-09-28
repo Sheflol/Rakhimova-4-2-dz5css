@@ -1,0 +1,122 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f5f5dc;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006847;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav {
+    background-color: #ce1126;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.card h2 {
+    color: #006847;
+    margin-top: 0;
+}
+
+.card h3 {
+    color: #ce1126;
+}
+
+.subtitle {
+    color: #777777;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.dish {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.dish img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin-right: 15px;
+}
+
+.dish h3 {
+    margin-top: 0;
+    color: #006847;
+}
+
+.dish a {
+    color: #ce1126;
+    text-decoration: none;
+}
+
+.dish a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #006847;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+.back:hover {
+    background-color: #004d33;
+}
+
+.signature {
+    text-align: right;
+    font-family: "Courier New", monospace;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #cccccc;
+}
